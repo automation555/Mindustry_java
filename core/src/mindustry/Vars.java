@@ -290,8 +290,8 @@ public class Vars implements Loadable{
         bebuildDirectory = dataDirectory.child("be_builds/");
         emptyMap = new Map(new StringMap());
 
-        if(tree == null) tree = new FileTree();
-        if(mods == null) mods = new Mods();
+        //if(tree == null) tree = new FileTree();
+       //if(mods == null) mods = new Mods();
 
         content = new ContentLoader();
         waves = new Waves();
